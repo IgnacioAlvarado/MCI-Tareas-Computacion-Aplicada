@@ -16,7 +16,7 @@ B = np.array ([300, 350])
 
 print("Matrix del problema:", A,B)
 
-#resolver para x y comprobar después con regla de crammer
+#resolver para X junto con Y y comprobar después con regla de crammer
 
 x, y = np.linalg.solve(A, B)
 print("Solución del sistema de ecuaciones utilizando la función linalg:", x, y)
